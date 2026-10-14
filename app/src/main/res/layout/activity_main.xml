@@ -15,12 +15,20 @@
         android:text="Status Service: Inactive"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
 
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Service" />
+
+    <Button
+        android:id="@+id/btnStartLatihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Latihan"
+        android:layout_marginTop="12dp" />
 
 </LinearLayout>
